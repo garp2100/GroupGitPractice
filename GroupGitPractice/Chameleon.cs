@@ -8,6 +8,15 @@ namespace GroupGitPractice
 {
     internal class Chameleon : Pet
     {
+        public Chameleon()
+        {
+            Name = "Chameleon";
+        }
+
+        public override void MakeHappyNoise()
+        {
+            Console.WriteLine("Chameleons don't make sounds");
+        }
 
     }
 }
