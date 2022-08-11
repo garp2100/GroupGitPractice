@@ -8,6 +8,8 @@ namespace GroupGitPractice
 {
     internal class Horse: Pet
     {
+        public int Age { get; set; }
+
         public Horse()
         {
             Name = "Tom the horse";
