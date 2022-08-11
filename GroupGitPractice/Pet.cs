@@ -14,6 +14,8 @@ namespace GroupGitPractice
 
         public string VetRecord { get; set; }
 
+        public string SomeInformation { get; set; }
+
         public virtual void MakeHappyNoise()
         {
             Console.WriteLine("caw caw!");
