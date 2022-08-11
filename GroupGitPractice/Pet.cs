@@ -9,6 +9,7 @@ namespace GroupGitPractice
     internal abstract class Pet
     {
         public string Name { get; set; }
+        public int  AverageAge { get; set; }
         public virtual void MakeHappyNoise()
         {
             Console.WriteLine("caw caw!");
