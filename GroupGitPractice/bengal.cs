@@ -11,6 +11,7 @@ namespace GroupGitPractice
         public Bengal()
         {
             Name = "Decimal the bengal";
+            NumOfLegs = 4;
         }
         public override void MakeHappyNoise()
         {
