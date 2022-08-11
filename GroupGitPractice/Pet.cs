@@ -8,6 +8,7 @@ namespace GroupGitPractice
 {
     internal abstract class Pet
     {
+        public int NumOfLegs { get; set; }
         public string Name { get; set; }
 
         public int  AverageAge { get; set; }
